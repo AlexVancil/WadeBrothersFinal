@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Repair</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link href="./styling_gen.css" rel="stylesheet" />
+    <link href="guitarCSS.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="wrapper">
+        <div class="contact_fast">
+            <p>(314) 555-5555</p>
+            <a><p>contact@wadebrothers.com</p></a>
+        </div>
+    <header>
+
+        <div class="logo">
+            <a href="index.html"><img class="logo_img" src="../Assets/WadeLogo.svg" alt=""></a>
+            <h2 class="title">Wade Brothers' Guitar and Audio</h2>
+        </div>
+        <nav>
+            <ul class="navlist">
+                <li class="homebutton"><a href="index.html"><button>Home</button></a></li>
+                <li class="currentpage"><a href="guitar.html"><button>Guitar Services</button></a></li>
+                <li><a href="audio.html"><button>Audio Services</button></a></li>                
+                <li><a href="about.html"><button>About</button></a></li>
+                <li><a href="contact.html"><button>Contact Us</button></a></li>
+            </ul>
+            <div class="dropdown hamburger">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../Assets/Icon_HamburgerMenu.svg" alt="">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Home Page</a></li>
+                  <li><a class="dropdown-item" href="guitar.html">Guitar Services</a></li>
+                  <li><a class="dropdown-item" href="audio.html">Audio Services</a></li>
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Guitar Repair and Customization</h1>
+            <p>
+                Wade Brothers has been keeping the instruments of St. Louis musicians in tip-top shape for over 10 years! From simple part replacements to entirely new guitars built from scratch, 
+                Wade Brothers makes sure that your instrument is always performing its best, since we understand more than anyone that your instrument is special and makes you who you are.
+                What if you want to be somebody new? We've got you covered! Our custom-built guitars are all one-of-a-kind and are sure to draw the eyes of the crowd!
+            </p>
+        </section>
+        <section class="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../Assets/Carousel Guitar_1.jpg" class="d-block w-100" alt="An ethereal advertisement letting the viewer know that Wade Brothers is having a 30% off sale on all string services until May 15th.">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Assets/Carousel Guitar_2.jpg" class="d-block w-100" alt="An image of a barn with a guitar in front of it. It is an advertisement for a new guitar offered by Wade Brothers">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Assets/Carousel Guitar_3.jpg" class="d-block w-100" alt="An image letting the viewer know that there is a new video release on the official Wade Brothers YouTube channel. The video is for fret work.">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="services">
+
+            <div class="service_item">
+                <h3>Restringing</h3>
+                <div class="service_details">   
+                    <div class="service_text">
+                        <p>Kind of hard to play a stringed instrument without strings! Get them fixed right as rain here to keep your instrument sounding clean and beautiful.</p>
+                        <div class="estimate_int">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                                  Price Breakdown
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapse1">
+                                <div class="card card-body">
+                                    <p><i>Cost of materials not included in base price.</i></p>
+                                    <p><i>Restringing has a guaranteed same-day pickup policy.</i></p>
+                                    <ul>
+                                        <li><b>Accoustic Restringing:</b> $50.00</li>
+                                        <li><b>Electric Restringing:</b> $60.00</li>
+                                        <li><b>Bass Restringing:</b> $60.00</li>
+                                        <li><b>Violin Restringing:</b> $35.00</li>
+                                        <li><b>Hurdy Gurdy Restringing:</b> $1,000,000.00</li>
+                                    </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>             
+                    <img src="../Assets/Service_String.jpg" alt="A closeup image of four electric bass guitar strings.">
+                </div>
+            </div>
+
+            <div class="service_item">
+                <h3>Neck/Base Repair</h3>
+                <div class="service_details">   
+                    <div class="service_text">
+                        <p>With all the tension your instruments are under, it's important to keep the neck strong. If anything happens to it, bring it in to our location and we'll keep it strong as an ox!</p>
+                        <div class="estimate_int">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                                  Price Breakdown
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapse2">
+                                <div class="card card-body">
+                                    <p><i>Cost of materials not included in base price.</i></p>
+                                    <ul>
+                                        <li><b>Accoustic Neck Repair:</b> $250.00</li>
+                                        <li><b>Electric Neck Repair:</b> $300.00</li>
+                                        <li><b>Violin Neck Repair:</b> $1.00</li>
+                                        <li><b>Hurdy Gurdy Restringing:</b> $A Kajillion Dollars</li>
+                                    </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>             
+                    <img src="../Assets/Service_Guitarneck.jpg" alt="A closeup image of a violin neck.">
+                </div>
+            </div>
+
+            <div class="service_item">
+                <h3>Fret Work</h3>
+                <div class="service_details">   
+                    <div class="service_text">
+                        <p>If your guitar has a buzzing noise any time you play it, chances are the frets aren't lined up. Luckily, Dylan has perfected the art of measuring frets down to a thousanth of an inch! We'll straighten them out in no time.</p>
+                        <div class="estimate_int">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+                                  Price Breakdown
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapse3">
+                                <div class="card card-body">
+                                    <p><i>Cost of materials not included in base price.</i></p>
+                                    <ul>
+                                        <li><b>Simple Fret Replacement:</b> $200.00</li>
+                                        <li><b>Full Fret Replacement:</b> $400.00</li>
+                                        <li><b>Hurdy Gurdy Fret work:</b> Hurdy Gurdy's don't have frets.</li>
+                                    </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>             
+                    <img src="../Assets/Service_Fret.jpg" alt="A closeup of some guitar frets with the strings in front of them.">
+                </div>
+            </div>
+
+            <div class="service_item">
+                <h3>Body Customization and Replacement</h3>
+                <div class="service_details">   
+                    <div class="service_text">
+                        <p>Make your guitar your own with our body customization! If you want your guitar to look psychedelic, rustic, or rugged, we'll make it yours!</p>
+                        <div class="estimate_int">
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  Price Breakdown
+                                </button>
+                              </p>
+                              <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    <p><i>Cost of materials not included in base price.</i></p>
+                                    <ul>
+                                        <li><b>Accoustic Body Replacement:</b> $650.00</li>
+                                        <li><b>Electric/Bass Body Replacement:</b> $500.00</li>
+                                        <li><b>Bass Modification:</b> Contact for Estimate</li>
+                                    </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>             
+                    <img src="../Assets/Service_Body.jpg" alt="An image of a guitar laying on its side.">
+                </div>
+            </div>
+
+
+        </section>
+        <section class="videos">
+            <h3>How does Dylan work on his guitars?</h3>
+            <iframe width="991" height="557" src="https://www.youtube.com/embed/Zij23dL8bQc" title="How I deal with Fret Buzz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="991" height="557" src="https://www.youtube.com/embed/2wQDl40uJy8" title="Fret Sprout and Pau Ferro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <div class="backbtn">
+            <a href="index.html"><img src="../Assets/Icon_Back.svg" alt="Back Button"></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>©2025 WadeWorx</li>
+            <li>(314) 555-5555</li>
+            <li>contact@wadebrothers.com</li>
+        </ul>
+        <p>Tue-Fri: 10:00-5:00pm | Sat-Sun: 11:00-4:00pm | Closed Mondays</p>
+    </footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+</body>
+</html>

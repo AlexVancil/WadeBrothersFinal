@@ -1,0 +1,106 @@
+.wrapper{
+    margin: 0 auto;
+}
+main{
+    padding-bottom: 10em;
+}
+.intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+.intro{
+    margin-bottom: 2em;
+}
+
+.quickcontact{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 4em;
+}
+.quickcontact label{
+    font-family: 'Nunito Sans';
+    color: var(--txt_body);
+}
+.quickcontact button{
+    background: var(--btn_service);
+    color: var(--txt_edge);
+    border: none;
+    border-radius: 2em;
+    transition: all .1s ease;
+    padding: 1em;
+}
+.quickcontact button:hover{
+    scale: 105%;
+    transition: all .1s ease;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.information h3,
+.information p{
+    text-align: center;
+}
+.base_info{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.location p{
+    text-align: left;
+    margin-left: 2em;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width:1040px){
+    .location{
+        display: grid;
+        justify-content: space-around;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        max-width: 50%;
+    }
+    .location p{
+        text-align: center;
+        margin-top: 1em;
+    }
+    .quickcontact{
+        width: 70%;
+    }
+}
+
+@media (max-width:768px){
+    .information{
+        display: grid;
+    }
+    .base_info,
+    .location{
+        width: 90%;
+        margin: 2em;
+    }
+}

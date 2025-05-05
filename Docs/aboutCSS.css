@@ -1,0 +1,67 @@
+.wrapper{
+    margin: 0 auto;
+}
+
+
+.intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+}
+.intro{
+    margin-bottom: 2em;
+}
+
+.bios{
+    display: grid;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+
+.person{
+    margin-bottom: 2em;
+}
+.person_info{
+    display: flex;
+}
+.person p{
+    max-width: 40%;
+}
+.person_info img{
+    max-width: 250px;
+}
+.socialmedia{
+    max-width: 30px;
+}
+main p{
+    margin-left: 2em;
+}
+
+@media (max-width:1024px){
+    .bios{
+        width: 90%;
+    }
+    .person p{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .intro p,
+    .intro h1{
+        width: 90%;
+    }
+    .person_info{
+        display: grid;
+    }
+    .person p, .person h2{
+        text-align: center;
+    }
+    .person img{
+        margin: auto;
+        margin-bottom: 1em;
+    }
+}
